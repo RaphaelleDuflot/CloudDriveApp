@@ -21,5 +21,6 @@ from drive import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("exemple/", views.exemple)
+    #path("exemple/", views.exemple),
+    path("upload_file/", views.upload_file),
 ]
